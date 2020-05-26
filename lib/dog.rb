@@ -24,11 +24,12 @@ end
     @@all << self
   end
 
-  def name
+  def name #has a name
     @name
   end
 
 end
 
+Bugs = Dog.new("Bugs")
 Pluto = Dog.new("Pluto")
 Dog.all
