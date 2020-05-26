@@ -1,12 +1,12 @@
 class Dog
-  @@all = []       #has a class variable, @@all, the points to an array
+  @@all = [] #has a class variable, @@all, the points to an array
 
   def initialize(name) #initializes with one argument - a name
     @name = name
     self.save
   end
 
-  def self.all  #is a class method returns all dog instances
+  def self.all #is a class method returns all dog instances
     @@all
   end
 
